@@ -1,5 +1,4 @@
-// C++ program to implement recursive Binary Search 
-#include <bits/stdc++.h> 
+#include <iostream> 
 using namespace std; 
 
 
@@ -34,3 +33,18 @@ int main(void)
 				: cout << "Element is present at index " << result; 
 	return 0; 
 } 
+// For Dynamic Input Uncoment Below Function
+/*
+int main()
+{
+    int x,arr[x],n;
+    cin>>x;
+    for (int i=0;i<x;i++)
+        cin>>arr[i];
+    n = sizeof(arr) / sizeof(arr[0]); 
+	int result = binarySearch(arr, 0, n - 1, x); 
+	(result == -1) ? cout << "Element is not present in array"
+				: cout << "Element is present at index " << result; 
+	return 0; 
+}
+*/
